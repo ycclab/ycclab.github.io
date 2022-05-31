@@ -9,7 +9,7 @@ let questions = [
 ];
 
 for(let i = 0; i < questions.length; i++){
-    let input = prompt(quistions[i].ask);
+    let input = prompt(questions[i].ask);
     if(input == questions[i].answer){
         alert("答對了!");
     }
